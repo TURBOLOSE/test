@@ -3,8 +3,7 @@
 This is the repo for collocation integrator for ODEs (ordinary differential equations).
 
 The integrator offers an adjustable order, single-step, implicit method for solving ODEs : *y' = f(t, y)*.
-Here *y* is a *n* dimensional vector that is represented by **Eigen::Matrix**.
-
+Here *y* is a n-dimensional vector that is represented by **Eigen::Matrix**.
 
 You can find details about collocation integrators in these books:
 *Preston C. Hammer and J W Hollingsworth. “Trapezoidal methods of approximating solutions of differential equations”. В: Mathematics of Computation 9 (1955), с. 92—96.
