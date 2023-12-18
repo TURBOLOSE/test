@@ -6,8 +6,8 @@ The integrator offers an adjustable order, single-step, implicit method for solv
 Here *y* is a n-dimensional vector that is represented by **Eigen::Matrix**.
 
 You can find details about collocation integrators in these books:
-*Preston C. Hammer and J W Hollingsworth. “Trapezoidal methods of approximating solutions of differential equations”. В: Mathematics of Computation 9 (1955), с. 92—96.
-*Ernst Hairer, Christian Lubich and Gerhard Wanner. “Geometric numerical integration illustrated by the Störmer–Verlet method”. В: Acta Numerica 12 (2003), с. 399—450.
+* Preston C. Hammer and J W Hollingsworth. “Trapezoidal methods of approximating solutions of differential equations”. В: Mathematics of Computation 9 (1955), с. 92—96.
+* Ernst Hairer, Christian Lubich and Gerhard Wanner. “Geometric numerical integration illustrated by the Störmer–Verlet method”. В: Acta Numerica 12 (2003), с. 399—450.
 
 ## Getting started
 
