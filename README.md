@@ -16,7 +16,7 @@ For better performance, use **auto** as a type of second argument. Or you can us
 
 Include **<collo/lobatto.hpp>** or **<collo/gauss.hpp>** and then you can create an integrator with the functions **make_Lobatto** or **make_Gauss**. Example:
 
-`auto lobatto = make_Lobatto<some_float_type, *n*, *s*, type_of_*f*>(*y_0*, *t_0*, *h*);`
+`auto lobatto = make_Lobatto<some_float_type, n, s, type_of_f>(y_0, t_0, h);`
 
 Parameter *s* determines how many intermediate points are used for the calculation of result on every step. This parameter impacts accuracy of integrator $O(h^{2s-2})$.
 Arguments *y_0* and *t_0* are initial vector and time. Argument *h* is a time step.
