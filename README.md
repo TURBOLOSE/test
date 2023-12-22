@@ -11,7 +11,7 @@ You can find details about collocation integrators in these books:
 
 ## Getting started
 
-Attention: This project is dependent on the library `Eigen` that you can get at [eigen.tuxfamily.org](https://eigen.tuxfamily.org/index.php?title=Main_Page) .
+Attention: This project is dependent on the library `Eigen` that you can get at [ ](https://eigen.tuxfamily.org/index.php?title=Main_Page).
 Additionally, if you want to use built-in tests, you will need the libirary `doctest`.
 
 You can define *f(t, y)* as a function object with two arguments: time *t* and vector *y*.
