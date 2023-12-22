@@ -11,8 +11,8 @@ You can find details about collocation integrators in these books:
 
 ## Getting started
 
-Attention: this project is dependent on the library `Eigen` that you can get at eigen.tuxfamily.org
-Additionally, if you want to use built-in tests you will need libirary `doctest`.
+Attention: This project is dependent on the library `Eigen` that you can get at eigen.tuxfamily.org .
+Additionally, if you want to use built-in tests, you will need the libirary `doctest`.
 
 You can define *f(t, y)* as a function object with two arguments: time *t* and vector *y*.
 For better performance, use **auto** as a type of second argument. Or you can use the helper alias **collo::state_vector_t<some_float_type, *n*>**.
